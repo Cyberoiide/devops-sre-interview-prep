@@ -12,6 +12,14 @@ Each question has its own folder with four files:
 
 ## Questions
 
+- [q200 — Where can you terminate SSL/TLS?](./q200-ssl-tls-termination/) — the
+  full menu of termination points (LB, app server, reverse proxy, API gateway,
+  CDN edge, HSM, mTLS), the termination vs passthrough vs re-encryption modes, and
+  the plaintext-backend-hop trade-off.
+- [q208 — Big-O complexity: explain O(n log n)](./q208-big-o-complexity/) — a
+  Big-O primer for operators (O(1) → O(2ⁿ)), why n log n is the comparison-sort
+  floor, and a lab that times O(n) vs O(n log n) vs O(n²) so you see the curves
+  diverge.
 - [q212 — The thundering herd](./q212-thundering-herd/) — a recovering backend
   gets slammed by every queued/retrying request at once; tame it with backoff +
   jitter and request collapsing / singleflight.

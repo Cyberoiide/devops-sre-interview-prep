@@ -9,6 +9,7 @@ net utilities (`ss`, `lsof`) — no cloud account required.
 
 | ID | Topic | One-line summary |
 |----|-------|------------------|
+| [q196](./q196-copy-on-write/) | Linux / memory | What is Copy-on-Write in the Linux kernel, how does it work at the page level, and where does it matter (fork, overcommit, snapshots)? |
 | [q222](./q222-large-pr-pipeline-failures/) | CI/CD reliability | A pipeline that passes small PRs fails inconsistently on large ones — OOM, timeouts, flaky tests. How do you diagnose and fix it? |
 | [q223b](./q223b-close-wait/) | Linux / TCP | Hundreds of `CLOSE_WAIT` connections on a box — what causes them, and whose fault is it? |
 

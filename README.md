@@ -5,8 +5,8 @@ question gets a scenario, a hands-on exercise you can actually run, a detailed
 solution, and "go deeper" notes for the follow-up questions an interviewer
 will throw at you.
 
-> Source material: a DevOps/SRE practice-interview YouTube playlist (questions
-> #210–#226). Questions have been expanded into full labs — the videos are
+> Source material: DevOps/SRE practice-interview YouTube playlists (questions
+> #194–#226). Questions have been expanded into full labs — the videos are
 > short, this repo is not.
 
 ## How to use this
@@ -20,10 +20,12 @@ will throw at you.
 
 | Topic | What's inside |
 |-------|---------------|
-| [Kubernetes](topics/kubernetes/) | Failed rollouts, CFS throttling, pending pods, ingress error codes, ingress vs LB |
-| [System Design](topics/system-design/) | Thundering herd, leaderboards, race conditions, latency numbers, Redis vs Memcached |
-| [Terraform / IaC](topics/terraform-iac/) | State recovery, VM→K8s DB migration, phantom resource rebuilds |
-| [CI/CD & Linux](topics/cicd-linux/) | Pipelines failing on large PRs, CLOSE_WAIT connections |
+| [Kubernetes](topics/kubernetes/) | Failed rollouts, CFS throttling, pending pods, ingress errors, ingress vs LB, node-pool drains, DaemonSets, custom schedulers, api-resources |
+| [System Design](topics/system-design/) | Thundering herd, leaderboards, race conditions, latency numbers, Redis vs Memcached, Big-O, SSL/TLS termination |
+| [AWS / Cloud](topics/aws-cloud/) | Securing CloudFront origins, VPC hardening, Route 53 routing policies, Lambda cold starts |
+| [Databases](topics/databases/) | Schema design — normalization vs JOIN cost, data types, foreign keys, constraints, indexing |
+| [Terraform / IaC](topics/terraform-iac/) | State recovery/list/move/remove, taint vs -replace, outputs, upgrades, VM→K8s DB migration, phantom rebuilds |
+| [CI/CD & Linux](topics/cicd-linux/) | Pipelines failing on large PRs, CLOSE_WAIT connections, copy-on-write |
 | [Career](topics/career/) | Top 5 topics to master (from real job-description analysis) |
 
 ## The 5 must-master topics (2026)
